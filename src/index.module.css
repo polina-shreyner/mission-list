@@ -1,0 +1,9 @@
+.app {
+  font-family: sans-serif;
+  padding: 15px 50px 0;
+}
+
+.app__header {
+  color: #999;
+  margin-bottom: 1.67em;
+}
