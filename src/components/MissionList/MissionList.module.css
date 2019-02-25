@@ -1,0 +1,8 @@
+.mission-list ul {
+  margin: 0;
+  padding: 0;
+}
+
+.mission-list ul li{
+  list-style-type: none;
+}

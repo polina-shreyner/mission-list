@@ -1,0 +1,41 @@
+.mission-block {
+  display: block;
+  max-width: 700px;
+}
+
+.mission-block__image {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  vertical-align: top;
+}
+
+.mission-block__info {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.mission-block__info_title {
+  display: block;
+  width: 485px;
+}
+
+.mission-block__info_title h3,
+.mission-block__info_title div {
+  display: inline-block;
+}
+
+.mission-block__info_title h3 {
+  margin-top: 0;
+}
+
+.mission-block__info_title div {
+  float: right;
+  color: #999;
+}
+
+.mission-block__info_text p{
+  display: block;
+  margin: 0;
+  color: #d2d2d2;
+}

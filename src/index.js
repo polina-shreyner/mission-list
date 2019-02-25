@@ -8,7 +8,6 @@ import style from "./index.module.css";
 
 const cx = classNames.bind(style);
 
-console.log(style);
 function App() {
   return (
     <div className={cx('app')}>

@@ -9,17 +9,17 @@ export class Filters extends Component {
   render() {
     return(
       <div className={cx('filter')}>
-        <div className={cx('filter__launch-site')}>
+        <div className={cx('filter__block')}>
           <label>Launch Site</label>
-          <select>
+          <select className={cx('filter__block_select')}>
             <option>1</option>
             <option>2</option>
             <option>3</option>
           </select>
         </div>
-        <div className={cx('filter__rocket')}>
+        <div className={cx('filter__block')}>
           <label>Rocket</label>
-          <select>
+          <select className={cx('filter__block_select')}>
             <option>1</option>
             <option>2</option>
             <option>3</option>

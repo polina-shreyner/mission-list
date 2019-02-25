@@ -1,13 +1,24 @@
 .filter {
-
+  display: block;
+  margin-bottom: 50px;
 }
 
-.filter__launch-site {
-
+.filter__block {
+  display: inline-block;
+  margin-right: 15px;
 }
 
+.filter__block label {
+  display: block;
+  color: #999;
+  margin-bottom: 5px;
+}
 
-
-.filter__rocket {
-
+.filter__block_select {
+  display: block;
+  width: 280px;
+  height: 35px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
